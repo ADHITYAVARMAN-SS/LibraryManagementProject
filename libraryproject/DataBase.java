@@ -9,7 +9,7 @@ public class DataBase {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/combobox", "root", "av@siva2004");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/combobox", "root", "password");
 		}
 		catch(Exception e){
 			e.printStackTrace();
